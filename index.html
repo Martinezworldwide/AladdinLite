@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aladdin Lite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Aladdin Lite: Portfolio Manager</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Portfolio</h2>
+      <input type="file" id="upload" accept=".csv, .json" />
+      <button onclick="fetchPrices()">Fetch Prices</button>
+      <div id="portfolioOutput"></div>
+    </section>
+    <section>
+      <h2>Trade Simulation</h2>
+      <form onsubmit="simulateTrade(event)">
+        <input type="text" id="ticker" placeholder="Ticker" required />
+        <input type="number" id="shares" placeholder="Shares" required />
+        <select id="tradeType">
+          <option value="BUY">Buy</option>
+          <option value="SELL">Sell</option>
+        </select>
+        <button type="submit">Execute</button>
+      </form>
+      <div id="tradeHistory"></div>
+    </section>
+    <canvas id="chart"></canvas>
+  </main>
+  <script src="libs/chart.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
