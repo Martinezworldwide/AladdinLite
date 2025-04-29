@@ -20,7 +20,15 @@
 
 ## 📂 File Structure
 
-aladdin-lite/ ├── index.html # Main user interface ├── style.css # UI styles ├── script.js # Portfolio logic and simulation ├── libs/ │ └── chart.min.js # Charting library ├── assets/ # Logo, icons (optional) └── README.md # You are here
+aladdin-lite/
+├── index.html          # Main webpage (HTML structure)
+├── style.css           # Styling for the app (CSS styles)
+├── script.js           # JavaScript logic for portfolio management and trade simulation
+├── libs/               # Libraries folder
+│   └── chart.min.js    # Chart.js library for data visualization (placeholder right now)
+├── assets/             # Folder for future images, icons, or logos (currently empty)
+├── README.md           # Project description and instructions (the file I just wrote)
+
 
 
 ---
@@ -53,6 +61,17 @@ This is a **demo tool only**. It is not intended for actual financial trading or
 
 ## 🌐 Live Demo
 
-(Host this repo on GitHub Pages and paste your URL here)
+https://martinezworldwide.github.io/AladdinLite
+
+---
+
+## 📧 Contact
+
+Created by Sebastian Martinez  
+Inspired by real-world financial systems.  
+Pull requests and forks welcome!
+
+
+
 
 
